@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family:'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+  text-decoration: underline;
+}
+p{
+  margin: 0.75rem 0;
+}
+/* Utility Classes */
+.txt-primary{
+  color: hsl(88, 54%, 56%);
+}
+.btn{
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem 1rem;
+  margin: 0.25rem;
+  background-color: hsl(88, 54%, 56%);
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: hsl(88, 54%, 40%);
+}
+.btn-dark{
+  background-color: #333;
+}
+.bg-light{
+  background-color: #ddd;
+}
+.wrapper{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.items{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.item{
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 4rem;
+}
+.item i{
+  background-color: hsl(88, 54%, 56%);
+  padding: 1rem;
+  border-radius: 2.4rem;
+  font-size: 2.3rem;
+  margin-bottom: 1.2rem;
+}
+/* NavBar */
+#logo{
+  font-size: 1.4rem;
+  color: #fff;
+}
+nav{
+  background-color: #333;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 1rem;
+  justify-content: space-between;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem;
+  margin: 0.25rem;
+}
+nav ul li a:hover{
+  background-color: hsl(88, 54%, 56%);
+  border-radius: 5px;
+}
+/* Showcase */
+#showcase{
+  background-image: url(./image_resources/showcase.jpg);
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+#showcase-content{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.385);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#showcase-content h1{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 3.5rem;
+}
+#showcase-content p{
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
+}
+/* #What */
+#what h2{
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  margin: 2rem 0;
+  margin-top: 4rem;
+}
+/* #Who */
+#who{
+  display: flex;
+}
+#who div{
+  flex: 1;
+}
+#who-img{
+  background-image: url(./image_resources/people.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#who-content{
+  background-color: #333;
+  padding: 2rem 1rem;
+  color: #fff;
+}
+#clients h2,#who-content h2{
+  font-size: 2rem;
+}
+#who-content h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+#who-content ul{
+  margin: 1rem 0;
+  list-style: none;
+}
+#who-content ul li{
+  padding: 1rem 0;
+  border-bottom: solid #555 ;
+  border-width: 0.25px;
+}
+/* Clients */
+#clients{text-align: center;}
+ .item img{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+/* Contact */
+#contact{
+  color: #fff;
+  display: flex;
+}
+#contact h2{
+  font-size: 2rem;
+  margin: 0.75rem;
+}
+#contact div{
+  flex: 1;
+}
+#form{
+  background-color: hsl(88, 54%, 56%);
+}
+.frmgrp{
+  margin: 0.75rem;
+}
+form label{
+  display: block;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+form input,form textarea{
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+}
+footer{
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0;
+}

@@ -1,0 +1,17 @@
+nav{
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+#logo{
+  margin-bottom: 1rem;
+}
+.items{
+  flex-direction: column;
+}
+#who{
+  flex-direction: column;
+}
+#contact{
+  flex-direction: column;
+}
